@@ -1,4 +1,6 @@
-$(document).ready(function{
-	let num = 50;
-	if (num == 50) console.log("Right!");
-});
+let num = 50;
+
+while (num < 55) {
+    document.write(num);
+    num++;
+}
